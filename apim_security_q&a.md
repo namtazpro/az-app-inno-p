@@ -1,3 +1,5 @@
+# Azure API Management Security Q&A
+
 ## Intercept and enforce requests to protected resources. 
  
 
@@ -48,7 +50,7 @@ https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptio
 
  
 
-## Integration with approved bp Identity Providers (Azure, Salesforce)  
+## Integration with different Identity Providers (Azure, Salesforce)  
 APIM supports OAUTH and OpenIDConnect, so is able to work with any provider that adopts these standards. OAUTH flows such as user based flows (implicit or authorisation code) are supported, allowing APIM to validate claims passed to the API, such as scopes, audience etc. For service to service flows, Client Credential flow is also supported providing further role validation as part of the JWT. APIM downloads the public signature key from the OAUTH provider metadata endpoints so it is able to validate the signature of the JWT to ensure no tampering, and then validate any of the claims present. 
 https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad 
 
