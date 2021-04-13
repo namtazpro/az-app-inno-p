@@ -11,4 +11,4 @@ Logic Apps subscribe to Topic 'master_employee_data'
 Subscribe 1=1
 
 
-![image](./images/integration_patterns-Publish-Subscribe.png)
+![image](../../images/integration_patterns-Publish-Subscribe.png)

@@ -8,7 +8,7 @@ Nothing specific. Just create the LogicApp to return a dataset in JSON with a sc
 
 1. Add the LogicApp API to APIM
 2. In AAD add a application:
-    ![image](./images/image7.png)
+    ![image](../../images/image7.png)
     - You can specify a Redirect URL such as :
     ``` 
     https://apim
@@ -36,13 +36,13 @@ Nothing specific. Just create the LogicApp to return a dataset in JSON with a sc
     The audience is the application
     
     - Policy for headers: The Authorization & Ocp-.. Delete are to make sure that for the first the oauth header is not sent to LogicApp and for the second that a key is not required when authenticating
-![image](./images/image6.png)
+![image](../../images/image6.png)
 - In AAD create the app reg for the client:
-![image](./images/image5.png)
+![image](../../images/image5.png)
     1. Create a client Secret and copy the secret value
     2. In API Permissions grant access to the apim service app reg scope
 
-![image](./images/image4.png)
+![image](../../images/image4.png)
 
 ### In PowerApps
    1. Create a custom connector using an API Definition file exported from APIM (v2)
@@ -67,14 +67,14 @@ Nothing specific. Just create the LogicApp to return a dataset in JSON with a sc
    8. Save and Test. It will ask you to create a connector. In this case you will need to authenticate with you user credentials.
    9. Once saved, get the RedirectURL and save it in the Redirect URI of the client app reg in AAD
 
-![image](./images/image3.png)
+![image](../../images/image3.png)
 
 Now the custom connector exist, new connections can be created and used in Applications in PowerApps.
 NOTE: if a user is granted access to the application and try to use it, he/she will be asked to authenticate in order to create a connector with their credentials.
 - A connection for virouet
 
-![image](./images/image2.png)
+![image](../../images/image2.png)
 
 - A connection for Alan
 
-![image](./images/image1.png)
+![image](../../images/image1.png)
