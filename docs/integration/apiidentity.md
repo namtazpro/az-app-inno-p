@@ -27,7 +27,7 @@ Nothing specific. Just create the LogicApp to return a dataset in JSON with a sc
 3. Back in APIM, select the operation and configure to validate a JWT token in Inbound Policy
     - The url: is always the same but need to specify the tenantID.
     ```
-    https://login.microsoftonline.com/096754bb-e3de-436e-88ed-6a1f312bffd0/.well-known/openid-configuration
+    https://login.microsoftonline.com/[your tenant id]/.well-known/openid-configuration
     ```
     - Add a claim for the audience corresponding to Application ID URI:
     ```
