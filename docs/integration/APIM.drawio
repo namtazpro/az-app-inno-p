@@ -1,6 +1,6 @@
-<mxfile modified="2021-05-24T16:42:17.536Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62" etag="oo7LDQcZCvW-EZgT4wZe" version="14.6.13" type="github">
+<mxfile modified="2021-05-25T08:21:35.181Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62" etag="HcRQR1Y8coBwpqWuV7oC" version="14.6.13" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="1673" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="sysWO4AyaLhMZwriSP55-24" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
           <mxGeometry x="1248.37" y="477" width="52.13" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="sysWO4AyaLhMZwriSP55-26" value="client secret" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/security/Keys.svg;" vertex="1" parent="1">
+        <mxCell id="sysWO4AyaLhMZwriSP55-26" value="client secret (apim)" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/security/Keys.svg;" vertex="1" parent="1">
           <mxGeometry x="213" y="280" width="49.26" height="52" as="geometry" />
         </mxCell>
         <UserObject label="Function: ReadParts" link="https://func-aircrafts-app.azurewebsites.net/api" id="sysWO4AyaLhMZwriSP55-29">
