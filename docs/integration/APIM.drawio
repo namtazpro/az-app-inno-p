@@ -1,4 +1,4 @@
-<mxfile modified="2021-05-26T16:22:50.439Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62" etag="fqxl0_lzACH1fiVG-Df-" version="14.6.13" type="github">
+<mxfile modified="2021-05-26T16:39:04.926Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62" etag="qWCzPk3pEXDlT6gheBHh" version="14.6.13" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -148,6 +148,12 @@
         </mxCell>
         <mxCell id="sysWO4AyaLhMZwriSP55-60" value="Powershell" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1080" y="218" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sysWO4AyaLhMZwriSP55-61" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 17px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #383838&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #800000&quot;&gt;authentication&lt;/span&gt;&lt;span style=&quot;color: #c90000&quot;&gt;-managed-identity&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c90000&quot;&gt;resource&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #0451a5&quot;&gt;&quot;https://func-aircrafts-app.azurewebsites.net&quot;&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #383838&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #000000&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sysWO4AyaLhMZwriSP55-62" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 17px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #383838&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #800000&quot;&gt;validate&lt;/span&gt;&lt;span style=&quot;color: #c90000&quot;&gt;-jwt&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c90000&quot;&gt;header-name&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #0451a5&quot;&gt;&quot;Authorization&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="455.5" y="550" width="194.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
