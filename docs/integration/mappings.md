@@ -1,6 +1,6 @@
 
 
-# Transformation in Logic App (Consumption, v1)
+# Transformation in Logic App (Consumption plan, v1)
 
 ## Use data transformation:
 - MS Doc: [Perform data operations in Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/-logic-apps-perform-data-operations)
@@ -10,10 +10,13 @@
 ### inline scripting in Logic App
 [Add and run code snippets by using inline code in Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-add-run-inline-code)
 
+>Requires an Azure [integration accout](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-create-integration-account?tabs=azure-portal)
+
 ### with Azure Function
 [Call functions from Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-azure-functions)
 
-## Use mappings:
+## Use Liquid template:
+> Requires an Azure [integration accout](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-create-integration-account?tabs=azure-portal)
 
 ### Liquid mapping in Logic App
 [Transform JSON and XML using Liquid templates as maps in Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-liquid-transform)
@@ -25,8 +28,9 @@
  Liquid mapping in VSC:
 
 - Open VS Code
-- Install the Shopify Liquid Template snippets
-- Write a simple Liquid template
+- Install the [Shopify Liquid Template snippets](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets)
+- Install the [Shopify Liquid Preview](https://marketplace.visualstudio.com/items?itemName=kirchner-trevor.shopify-liquid-preview)
+- Write a simple Liquid template. See article [Liquid Template editing in Visual Studio Code](https://lfalck.se/liquid-template-editing-in-visual-studio-code/)
 - Upload to your Azure integration account
 - Add it to your Logic App and execute it in your workflow.
 - Extract the Input from the Run extract (the JSON that has the "content" element)
@@ -52,7 +56,7 @@ For policy expression syntax : MS Doc: [APIM policy expressions](https://docs.mi
 
 MS Doc: [APIM advanced policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-advanced-policies#SendRequest)
 
-MS Doc: [Transformation examples vider](https://azure.microsoft.com/en-gb/resources/videos/episode-177-more-api-management-features-with-vlad-vinogradsky/)
+MS Doc: [Transformation examples video](https://azure.microsoft.com/en-gb/resources/videos/episode-177-more-api-management-features-with-vlad-vinogradsky/)
 
 
 # JSON editing
