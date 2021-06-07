@@ -1,0 +1,1468 @@
+{
+  "content": {
+      "countries": [
+          {
+              "avg_temp": "20",
+              "code": "AF",
+              "geo": "Asia",
+              "name": "Afghanistan"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AX",
+              "geo": "Asia",
+              "name": "Åland Islands"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AL",
+              "geo": "Europe",
+              "name": "Albania"
+          },
+          {
+              "avg_temp": "20",
+              "code": "DZ",
+              "geo": "Africa",
+              "name": "Algeria"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AS",
+              "geo": "America",
+              "name": "American Samoa"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AD",
+              "geo": "Europe",
+              "name": "AndorrA"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AO",
+              "geo": "Africa",
+              "name": "Angola"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AI",
+              "geo": "Europe",
+              "name": "Anguilla"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AQ",
+              "geo": "Europe",
+              "name": "Antarctica"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AG",
+              "geo": "Europe",
+              "name": "Antigua and Barbuda"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AR",
+              "geo": "Latin America",
+              "name": "Argentina"
+          },
+          {
+              "avg_temp": "15",
+              "code": "AM",
+              "geo": "Latin America",
+              "name": "Armenia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AW",
+              "geo": "Europe",
+              "name": "Aruba"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AU",
+              "geo": "Europe",
+              "name": "Australia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AT",
+              "geo": "Europe",
+              "name": "Austria"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AZ",
+              "geo": "Europe",
+              "name": "Azerbaijan"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BS",
+              "geo": "Europe",
+              "name": "Bahamas"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BH",
+              "geo": "Europe",
+              "name": "Bahrain"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BD",
+              "geo": "Europe",
+              "name": "Bangladesh"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BB",
+              "geo": "Europe",
+              "name": "Barbados"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BY",
+              "geo": "Europe",
+              "name": "Belarus"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BE",
+              "geo": "Europe",
+              "name": "Belgium"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BZ",
+              "geo": "Africa",
+              "name": "Belize"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BJ",
+              "geo": "Africa",
+              "name": "Benin"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BM",
+              "geo": "Africa",
+              "name": "Bermuda"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BT",
+              "geo": "Africa",
+              "name": "Bhutan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BO",
+              "geo": "Africa",
+              "name": "Bolivia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BA",
+              "geo": "Africa",
+              "name": "Bosnia and Herzegovina"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BW",
+              "geo": "Africa",
+              "name": "Botswana"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BV",
+              "geo": "Africa",
+              "name": "Bouvet Island"
+          },
+          {
+              "avg_temp": "15",
+              "code": "BR",
+              "geo": "Latin America",
+              "name": "Brazil"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IO",
+              "geo": "Africa",
+              "name": "British Indian Ocean Territory"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BN",
+              "geo": "Africa",
+              "name": "Brunei Darussalam"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BG",
+              "geo": "Europe",
+              "name": "Bulgaria"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BF",
+              "geo": "Africa",
+              "name": "Burkina Faso"
+          },
+          {
+              "avg_temp": "20",
+              "code": "BI",
+              "geo": "Africa",
+              "name": "Burundi"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KH",
+              "geo": "Europe",
+              "name": "Cambodia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CM",
+              "geo": "Africa",
+              "name": "Cameroon"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CA",
+              "geo": "Africa",
+              "name": "Canada"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CV",
+              "geo": "Africa",
+              "name": "Cape Verde"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KY",
+              "geo": "Africa",
+              "name": "Cayman Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CF",
+              "geo": "Africa",
+              "name": "Central African Republic"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TD",
+              "geo": "Africa",
+              "name": "Chad"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CL",
+              "geo": "Latin America",
+              "name": "Chile"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CN",
+              "geo": "Africa",
+              "name": "China"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CX",
+              "geo": "Africa",
+              "name": "Christmas Island"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CC",
+              "geo": "Africa",
+              "name": "Cocos (Keeling) Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CO",
+              "geo": "Latin America",
+              "name": "Colombia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KM",
+              "geo": "Africa",
+              "name": "Comoros"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CG",
+              "geo": "Africa",
+              "name": "Congo"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CD",
+              "geo": "Africa",
+              "name": "Congo, The Democratic Republic of the"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CK",
+              "geo": "Africa",
+              "name": "Cook Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CR",
+              "geo": "Africa",
+              "name": "Costa Rica"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CI",
+              "geo": "Africa",
+              "name": "Cote d'Ivoire"
+          },
+          {
+              "avg_temp": "20",
+              "code": "HR",
+              "geo": "Europe",
+              "name": "Croatia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CU",
+              "geo": "Africa",
+              "name": "Cuba"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CY",
+              "geo": "Africa",
+              "name": "Cyprus"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CZ",
+              "geo": "Africa",
+              "name": "Czech Republic"
+          },
+          {
+              "avg_temp": "15",
+              "code": "DK",
+              "geo": "Europe",
+              "name": "Denmark"
+          },
+          {
+              "avg_temp": "20",
+              "code": "DJ",
+              "geo": "Africa",
+              "name": "Djibouti"
+          },
+          {
+              "avg_temp": "20",
+              "code": "DM",
+              "geo": "Africa",
+              "name": "Dominica"
+          },
+          {
+              "avg_temp": "20",
+              "code": "DO",
+              "geo": "Africa",
+              "name": "Dominican Republic"
+          },
+          {
+              "avg_temp": "20",
+              "code": "EC",
+              "geo": "Latin America",
+              "name": "Ecuador"
+          },
+          {
+              "avg_temp": "20",
+              "code": "EG",
+              "geo": "Africa",
+              "name": "Egypt"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SV",
+              "geo": "Africa",
+              "name": "El Salvador"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GQ",
+              "geo": "Africa",
+              "name": "Equatorial Guinea"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ER",
+              "geo": "Africa",
+              "name": "Eritrea"
+          },
+          {
+              "avg_temp": "20",
+              "code": "EE",
+              "geo": "Europe",
+              "name": "Estonia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ET",
+              "geo": "Africa",
+              "name": "Ethiopia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "FK",
+              "geo": "Latin America",
+              "name": "Falkland Islands (Malvinas)"
+          },
+          {
+              "avg_temp": "20",
+              "code": "FO",
+              "geo": "Latin America",
+              "name": "Faroe Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "FJ",
+              "geo": "Pacific",
+              "name": "Fiji"
+          },
+          {
+              "avg_temp": "20",
+              "code": "FI",
+              "geo": "Europe",
+              "name": "Finland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "FR",
+              "geo": "Europe",
+              "name": "France"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GF",
+              "geo": "Latin America",
+              "name": "French Guiana"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PF",
+              "geo": "Pacific",
+              "name": "French Polynesia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TF",
+              "geo": "Pacific",
+              "name": "French Southern Territories"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GA",
+              "geo": "Africa",
+              "name": "Gabon"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GM",
+              "geo": "Africa",
+              "name": "Gambia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GE",
+              "geo": "Europe",
+              "name": "Georgia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "DE",
+              "geo": "Europe",
+              "name": "Germany"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GH",
+              "geo": "Africa",
+              "name": "Ghana"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GI",
+              "geo": "Europe",
+              "name": "Gibraltar"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GR",
+              "geo": "Europe",
+              "name": "Greece"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GL",
+              "geo": "North America",
+              "name": "Greenland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GD",
+              "geo": "Africa",
+              "name": "Grenada"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GP",
+              "geo": "Central America",
+              "name": "Guadeloupe"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GU",
+              "geo": "Central America",
+              "name": "Guam"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GT",
+              "geo": "Central America",
+              "name": "Guatemala"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GG",
+              "geo": "Europe",
+              "name": "Guernsey"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GN",
+              "geo": "Africa",
+              "name": "Guinea"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GW",
+              "geo": "Africa",
+              "name": "Guinea-Bissau"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GY",
+              "geo": "Latin America",
+              "name": "Guyana"
+          },
+          {
+              "avg_temp": "20",
+              "code": "HT",
+              "geo": "Central America",
+              "name": "Haiti"
+          },
+          {
+              "avg_temp": "20",
+              "code": "HM",
+              "geo": "Central America",
+              "name": "Heard Island and Mcdonald Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VA",
+              "geo": "Europe",
+              "name": "Holy See (Vatican City State)"
+          },
+          {
+              "avg_temp": "20",
+              "code": "HN",
+              "geo": "Central America",
+              "name": "Honduras"
+          },
+          {
+              "avg_temp": "20",
+              "code": "HK",
+              "geo": "Asia",
+              "name": "Hong Kong"
+          },
+          {
+              "avg_temp": "20",
+              "code": "HU",
+              "geo": "Europe",
+              "name": "Hungary"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IS",
+              "geo": "Europe",
+              "name": "Iceland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IN",
+              "geo": "Asia",
+              "name": "India"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ID",
+              "geo": "Asia",
+              "name": "Indonesia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IR",
+              "geo": "Middle East",
+              "name": "Iran, Islamic Republic Of"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IQ",
+              "geo": "Middle East",
+              "name": "Iraq"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IE",
+              "geo": "Europe",
+              "name": "Ireland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IM",
+              "geo": "Europe",
+              "name": "Isle of Man"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IL",
+              "geo": "Middle East",
+              "name": "Israel"
+          },
+          {
+              "avg_temp": "20",
+              "code": "IT",
+              "geo": "Europe",
+              "name": "Italy"
+          },
+          {
+              "avg_temp": "20",
+              "code": "JM",
+              "geo": "Europe",
+              "name": "Jamaica"
+          },
+          {
+              "avg_temp": "20",
+              "code": "JP",
+              "geo": "Asia",
+              "name": "Japan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "JE",
+              "geo": "Europe",
+              "name": "Jersey"
+          },
+          {
+              "avg_temp": "20",
+              "code": "JO",
+              "geo": "Middle East",
+              "name": "Jordan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KZ",
+              "geo": "Asia",
+              "name": "Kazakhstan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KE",
+              "geo": "Africa",
+              "name": "Kenya"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KI",
+              "geo": "Europe",
+              "name": "Kiribati"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KP",
+              "geo": "Asia",
+              "name": "Korea Democratic People's Republic of"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KR",
+              "geo": "Asia",
+              "name": "Korea, Republic ofAsia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KW",
+              "geo": "Middle East",
+              "name": "Kuwait"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KG",
+              "geo": "Asia",
+              "name": "Kyrgyzstan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LA",
+              "geo": "Asia",
+              "name": "Lao People's Democratic Republic"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LV",
+              "geo": "Europe",
+              "name": "Latvia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LB",
+              "geo": "Middle East",
+              "name": "Lebanon"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LS",
+              "geo": "Europe",
+              "name": "Lesotho"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LR",
+              "geo": "Africa",
+              "name": "Liberia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LY",
+              "geo": "Africa",
+              "name": "Libyan Arab Jamahiriya"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LI",
+              "geo": "Europe",
+              "name": "Liechtenstein"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LT",
+              "geo": "Europe",
+              "name": "Lithuania"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LU",
+              "geo": "Europe",
+              "name": "Luxembourg"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MO",
+              "geo": "Asia",
+              "name": "Macao"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MK",
+              "geo": "Europe",
+              "name": "Macedonia, The Former Yugoslav Republic of"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MG",
+              "geo": "Africa",
+              "name": "Madagascar"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MW",
+              "geo": "Africa",
+              "name": "Malawi"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MY",
+              "geo": "Asia",
+              "name": "Malaysia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MV",
+              "geo": "Central America",
+              "name": "Maldives"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ML",
+              "geo": "Africa",
+              "name": "Mali"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MT",
+              "geo": "Europe",
+              "name": "Malta"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MH",
+              "geo": "Pacific",
+              "name": "Marshall Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MQ",
+              "geo": "Central America",
+              "name": "Martinique"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MR",
+              "geo": "Africa",
+              "name": "Mauritania"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MU",
+              "geo": "Africa",
+              "name": "Mauritius"
+          },
+          {
+              "avg_temp": "20",
+              "code": "YT",
+              "geo": "Africa",
+              "name": "Mayotte"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MX",
+              "geo": "Central America",
+              "name": "Mexico"
+          },
+          {
+              "code": "FM",
+              "geo": "Asia",
+              "name": "Micronesia, Federated States of"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MD",
+              "geo": "Europe",
+              "name": "Moldova, Republic of"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MC",
+              "geo": "Europe",
+              "name": "Monaco"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MN",
+              "geo": "Asia",
+              "name": "Mongolia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MS",
+              "geo": "Europe",
+              "name": "Montserrat"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MA",
+              "geo": "Africa",
+              "name": "Morocco"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MZ",
+              "geo": "Africa",
+              "name": "Mozambique"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MM",
+              "geo": "Asia",
+              "name": "Myanmar"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NA",
+              "geo": "Africa",
+              "name": "Namibia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NR",
+              "geo": "Asia",
+              "name": "Nauru"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NP",
+              "geo": "Asia",
+              "name": "Nepal"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NL",
+              "geo": "Europe",
+              "name": "Netherlands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AN",
+              "geo": "Europe",
+              "name": "Netherlands Antilles"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NC",
+              "geo": "Oceania",
+              "name": "New Caledonia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NZ",
+              "geo": "Oceania",
+              "name": "New Zealand"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NI",
+              "geo": "Central America",
+              "name": "Nicaragua"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NE",
+              "geo": "Africa",
+              "name": "Niger"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NG",
+              "geo": "Africa",
+              "name": "Nigeria"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NU",
+              "geo": "Europe",
+              "name": "Niue"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NF",
+              "geo": "Europe",
+              "name": "Norfolk Island"
+          },
+          {
+              "avg_temp": "20",
+              "code": "MP",
+              "geo": "Europe",
+              "name": "Northern Mariana Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "NO",
+              "geo": "Europe",
+              "name": "Norway"
+          },
+          {
+              "avg_temp": "20",
+              "code": "OM",
+              "geo": "Middle East",
+              "name": "Oman"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PK",
+              "geo": "Asia",
+              "name": "Pakistan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PW",
+              "geo": "Europe",
+              "name": "Palau"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PS",
+              "geo": "Middle East",
+              "name": "Palestinian Territory, Occupied"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PA",
+              "geo": "Europe",
+              "name": "Panama"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PG",
+              "geo": "Europe",
+              "name": "Papua New Guinea"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PY",
+              "geo": "Europe",
+              "name": "Paraguay"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PE",
+              "geo": "Latin America",
+              "name": "Peru"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PH",
+              "geo": "Europe",
+              "name": "Philippines"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PN",
+              "geo": "Europe",
+              "name": "Pitcairn"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PL",
+              "geo": "Europe",
+              "name": "Poland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PT",
+              "geo": "Europe",
+              "name": "Portugal"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PR",
+              "geo": "Europe",
+              "name": "Puerto Rico"
+          },
+          {
+              "avg_temp": "20",
+              "code": "QA",
+              "geo": "Europe",
+              "name": "Qatar"
+          },
+          {
+              "avg_temp": "20",
+              "code": "RE",
+              "geo": "Europe",
+              "name": "Reunion"
+          },
+          {
+              "avg_temp": "20",
+              "code": "RO",
+              "geo": "Europe",
+              "name": "Romania"
+          },
+          {
+              "avg_temp": "20",
+              "code": "RU",
+              "geo": "Europe",
+              "name": "Russian Federation"
+          },
+          {
+              "avg_temp": "20",
+              "code": "RW",
+              "geo": "Europe",
+              "name": "RWANDA"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SH",
+              "geo": "Europe",
+              "name": "Saint Helena"
+          },
+          {
+              "avg_temp": "20",
+              "code": "KN",
+              "geo": "Europe",
+              "name": "Saint Kitts and Nevis"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LC",
+              "geo": "Europe",
+              "name": "Saint Lucia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "PM",
+              "geo": "Europe",
+              "name": "Saint Pierre and Miquelon"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VC",
+              "geo": "Europe",
+              "name": "Saint Vincent and the Grenadines"
+          },
+          {
+              "avg_temp": "20",
+              "code": "WS",
+              "geo": "Europe",
+              "name": "Samoa"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SM",
+              "geo": "Europe",
+              "name": "San Marino"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ST",
+              "geo": "Europe",
+              "name": "Sao Tome and Principe"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SA",
+              "geo": "Europe",
+              "name": "Saudi Arabia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SN",
+              "geo": "Europe",
+              "name": "Senegal"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CS",
+              "geo": "Europe",
+              "name": "Serbia and Montenegro"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SC",
+              "geo": "Europe",
+              "name": "Seychelles"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SL",
+              "geo": "Europe",
+              "name": "Sierra Leone"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SG",
+              "geo": "Europe",
+              "name": "Singapore"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SK",
+              "geo": "Europe",
+              "name": "Slovakia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SI",
+              "geo": "Europe",
+              "name": "Slovenia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SB",
+              "geo": "Europe",
+              "name": "Solomon Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SO",
+              "geo": "Europe",
+              "name": "Somalia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ZA",
+              "geo": "Europe",
+              "name": "South Africa"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GS",
+              "geo": "Europe",
+              "name": "South Georgia and the South Sandwich Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ES",
+              "geo": "Europe",
+              "name": "Spain"
+          },
+          {
+              "avg_temp": "20",
+              "code": "LK",
+              "geo": "Europe",
+              "name": "Sri Lanka"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SD",
+              "geo": "Europe",
+              "name": "Sudan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SR",
+              "geo": "Europe",
+              "name": "Suriname"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SJ",
+              "geo": "Europe",
+              "name": "Svalbard and Jan Mayen"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SZ",
+              "geo": "Europe",
+              "name": "Swaziland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SE",
+              "geo": "Europe",
+              "name": "Sweden"
+          },
+          {
+              "avg_temp": "20",
+              "code": "CH",
+              "geo": "Europe",
+              "name": "Switzerland"
+          },
+          {
+              "avg_temp": "20",
+              "code": "SY",
+              "geo": "Europe",
+              "name": "Syrian Arab Republic"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TW",
+              "geo": "Europe",
+              "name": "Taiwan, Province of China"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TJ",
+              "geo": "Europe",
+              "name": "Tajikistan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TZ",
+              "geo": "Europe",
+              "name": "Tanzania, United Republic of"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TH",
+              "geo": "Europe",
+              "name": "Thailand"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TL",
+              "geo": "Europe",
+              "name": "Timor-Leste"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TG",
+              "geo": "Europe",
+              "name": "Togo"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TK",
+              "geo": "Europe",
+              "name": "Tokelau"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TO",
+              "geo": "Europe",
+              "name": "Tonga"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TT",
+              "geo": "Europe",
+              "name": "Trinidad and Tobago"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TN",
+              "geo": "Europe",
+              "name": "Tunisia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TR",
+              "geo": "Europe",
+              "name": "Turkey"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TM",
+              "geo": "Europe",
+              "name": "Turkmenistan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TC",
+              "geo": "Europe",
+              "name": "Turks and Caicos Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "TV",
+              "geo": "Europe",
+              "name": "Tuvalu"
+          },
+          {
+              "avg_temp": "20",
+              "code": "UG",
+              "geo": "Europe",
+              "name": "Uganda"
+          },
+          {
+              "avg_temp": "20",
+              "code": "UA",
+              "geo": "Europe",
+              "name": "Ukraine"
+          },
+          {
+              "avg_temp": "20",
+              "code": "AE",
+              "geo": "Europe",
+              "name": "United Arab Emirates"
+          },
+          {
+              "avg_temp": "20",
+              "code": "GB",
+              "geo": "Europe",
+              "name": "United Kingdom"
+          },
+          {
+              "avg_temp": "20",
+              "code": "US",
+              "geo": "Europe",
+              "name": "United States"
+          },
+          {
+              "avg_temp": "20",
+              "code": "UM",
+              "geo": "Europe",
+              "name": "United States Minor Outlying Islands"
+          },
+          {
+              "avg_temp": "20",
+              "code": "UY",
+              "geo": "Europe",
+              "name": "Uruguay"
+          },
+          {
+              "avg_temp": "20",
+              "code": "UZ",
+              "geo": "Europe",
+              "name": "Uzbekistan"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VU",
+              "geo": "Europe",
+              "name": "Vanuatu"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VE",
+              "geo": "Europe",
+              "name": "Venezuela"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VN",
+              "geo": "Europe",
+              "name": "Viet Nam"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VG",
+              "geo": "Europe",
+              "name": "Virgin Islands, British"
+          },
+          {
+              "avg_temp": "20",
+              "code": "VI",
+              "geo": "Europe",
+              "name": "Virgin Islands, U.S."
+          },
+          {
+              "avg_temp": "20",
+              "code": "WF",
+              "geo": "Pacific",
+              "name": "Wallis and Futuna"
+          },
+          {
+              "avg_temp": "20",
+              "code": "EH",
+              "geo": "Africa",
+              "name": "Western Sahara"
+          },
+          {
+              "avg_temp": "20",
+              "code": "YE",
+              "geo": "Middle East",
+              "name": "Yemen"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ZM",
+              "geo": "Africa",
+              "name": "Zambia"
+          },
+          {
+              "avg_temp": "20",
+              "code": "ZW",
+              "geo": "Africa",
+              "name": "Zimbabwe"
+          }
+      ]
+  },
+  "integrationAccount": {
+      "map": {
+          "name": "countries_raw_to_consumer2"
+      }
+  }
+}

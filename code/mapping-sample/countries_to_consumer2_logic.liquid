@@ -1,0 +1,11 @@
+{
+   "CTRIES": [
+  {% for cties in content.countries %}
+      {
+         "country_code" : "{{cties.code}}",
+         "world_region" : "{{cties.geo}}",
+         "avg_temp" : "{{cties.avg_temp}}"
+      },
+  {% endfor %}
+   ]
+}
