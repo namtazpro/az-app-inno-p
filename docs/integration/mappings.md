@@ -46,7 +46,7 @@ From community: this method uses DotLiquid in a Function. Avoids having to use a
 [Using Liquid transformations in Logic Apps](https://purple.telstra.com.au/blog/using-liquid-transformations-in-logic-apps-for-free)
 
 # Transformation in Logic App (Standard, v2)
-TBC
+TB completed
 
 # Transformation in APIM
 
