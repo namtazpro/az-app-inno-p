@@ -1,4 +1,4 @@
-<mxfile modified="2021-07-01T16:33:02.257Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="dpA7obtB0R8v-djTAkLm" version="14.7.7" type="github" pages="3">
+<mxfile modified="2021-07-01T16:45:25.209Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="0VslOkLTKSCcX7M5WFAX" version="14.7.7" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="AuthN-AuthZ with APIM">
     <mxGraphModel dx="3539" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -249,8 +249,8 @@
         <mxCell id="DZHlZsA9HhGeMH9wpt6c-6" value="Use API (send JWT with Scope)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="350.0000000000001" y="1545" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DZHlZsA9HhGeMH9wpt6c-7" value="User flow&lt;br&gt;- Article :&amp;nbsp;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="-109.99999999999989" y="950" width="90" height="50" as="geometry" />
+        <mxCell id="DZHlZsA9HhGeMH9wpt6c-7" value="User flow&lt;br&gt;- Article : &lt;b&gt;How to secure a Web API built with ASP.NET Core using the Microsoft identity platform&lt;br&gt;- &lt;/b&gt;source repo:&amp;nbsp;&lt;a href=&quot;https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/tree/master/4-WebApp-your-API/4-1-MyOrg&quot;&gt;active-directory-aspnetcore-webapp-openidconnect-v2/4-WebApp-your-API/4-1-MyOrg at master · Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2 (github.com)&lt;/a&gt;&lt;br&gt;- local solution :&amp;nbsp;C:\Users\virouet\source\repos\app-aviation\4-1-MyOrg&lt;br&gt;- my repo:&amp;nbsp;&lt;a href=&quot;https://github.com/namtazpro/app-aviation/tree/main/4-1-MyOrg&quot;&gt;app-aviation/4-1-MyOrg at main · namtazpro/app-aviation (github.com)&lt;/a&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-339.9999999999999" y="885" width="1670" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
