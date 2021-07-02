@@ -1,4 +1,4 @@
-<mxfile modified="2021-07-02T08:21:42.518Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="HyIV2AbPip65833AitFu" version="14.7.7" type="github" pages="3">
+<mxfile modified="2021-07-02T10:19:14.892Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="BuGUr6lA3HycrwH_QVyU" version="14.7.7" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="AuthN-AuthZ with APIM">
     <mxGraphModel dx="3539" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -712,6 +712,9 @@
         </mxCell>
         <mxCell id="GqBUAGHRxb1bMetEETHW-51" value="Interim" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="Vg_a3IHsOzXkHTShUd7j-1">
           <mxGeometry x="625" y="555" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UjJVklN9TXtC99E78KVp-29" value="" style="whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="Vg_a3IHsOzXkHTShUd7j-1">
+          <mxGeometry x="-50" y="347" width="40" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
