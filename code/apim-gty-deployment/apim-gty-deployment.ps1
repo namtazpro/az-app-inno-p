@@ -1,7 +1,9 @@
+#From article https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/apis/protect-apis
+
 # ------------------1 create resource group -----------------
-#- $resGroupName = "rg-apim-appgtw"
-#- $location = "westeurope"
-#- New-AzResourceGroup -Name $resGroupName -Location $location
+$resGroupName = "rg-apim-appgtw"
+$location = "westeurope"
+New-AzResourceGroup -Name $resGroupName -Location $location
 
 # ------------------ create virtual network ----------------
 # Retrieve virtual network information
@@ -51,29 +53,38 @@ $apimService = New-AzApiManagement `
 
 
 # ---------------------------- create certificate -------------------------
+# USE An Administrator session to do this next step (and the next)
 New-SelfSignedCertificate `
   -certstorelocation cert:\localmachine\my `
-  -dnsname contoso1media3
+  -dnsname "api.contoso1media.com", "portal.contoso1media.com"
 
   #Result:
   PSParentPath: Microsoft.PowerShell.Security\Certificate::LocalMachine\my
 
   Thumbprint                                Subject
   ----------                                -------
-  DF6B046C9085CDCF3284A8E3CF3E3B7AEB75F34D  CN=contoso1media3
+  B01C1D37C8CFF9C31DC1211578A1A6F2352FB6CE  CN=api.contoso1media.com
 
+#--------------------- Export private key --------------------
+# USE An Administrator session to do this next step:
   $pwd = ConvertTo-SecureString -String Grenadine1234! -Force -AsPlainText
 Export-PfxCertificate `
-  -cert cert:\localMachine\my\DF6B046C9085CDCF3284A8E3CF3E3B7AEB75F34D `
-  -FilePath c:\appgwcert.pfx `
+  -cert cert:\localMachine\my\B01C1D37C8CFF9C31DC1211578A1A6F2352FB6CE `
+  -FilePath C:\Users\virouet\source\repos\az-app-inno-p\code\apim-gty-deployment\appgwcert.pfx `
   -Password $pwd
 
+  Export-PfxCertificate `
+  -cert cert:\localMachine\my\B01C1D37C8CFF9C31DC1211578A1A6F2352FB6CE `
+  -FilePath C:\Users\virouet\source\repos\az-app-inno-p\code\apim-gty-deployment\cert.pfx `
+  -Password $pwd
+
+
 # Specify certificate configuration
-$gatewayHostname = "api.contoso1media3"
-$portalHostname = "portal.contoso1media3"
-$gatewayCertCerPath = "c:\cert.pfx"
-$gatewayCertPfxPath = "c:\appgwcert.pfx"
-$portalCertPfxPath = "c:\appgwcert.pfx"
+$gatewayHostname = "api.contoso1media.com"
+$portalHostname = "portal.contoso1media.com"
+$gatewayCertCerPath = "C:\Users\virouet\source\repos\az-app-inno-p\code\apim-gty-deployment\cert.pfx"
+$gatewayCertPfxPath = "C:\Users\virouet\source\repos\az-app-inno-p\code\apim-gty-deployment\appgwcert.pfx"
+$portalCertPfxPath = "C:\Users\virouet\source\repos\az-app-inno-p\code\apim-gty-deployment\appgwcert.pfx"
 $gatewayCertPfxPassword = "Grenadine1234!"
 $portalCertPfxPassword = "Grenadine1234!"
 
@@ -90,19 +101,19 @@ $proxyHostnameConfig = New-AzApiManagementCustomHostnameConfiguration `
 
 $portalHostnameConfig = New-AzApiManagementCustomHostnameConfiguration `
   -Hostname $portalHostname `
-  -HostnameType Portal `
+  -HostnameType DeveloperPortal `
   -PfxPath $portalCertPfxPath `
   -PfxPassword $certPortalPwd
 
+
 # Tie certificates configurations into API Management service
+# vincent: If process was interupted and you've lost the apim variable, run :  $apimService = Get-AzApiManagement -name apim-contoso2021 -resourcegroup rg-apim-appgtw
 $apimService.ProxyCustomHostnameConfiguration = $proxyHostnameConfig
 $apimService.PortalCustomHostnameConfiguration = $portalHostnameConfig
 
 # Update API Management with the updated configuration
 Set-AzApiManagement -InputObject $apimService
 
-
-MISSED
 
 # ---------------------------------- create public ip -------------------
 # Create a public IP address for the Application Gateway front end
@@ -187,7 +198,7 @@ $apimPortalProbe = New-AzApplicationGatewayProbeConfig `
 
 # Step 7 - upload certificate for SSL-enabled backend pool resources
 $authcert = New-AzApplicationGatewayAuthenticationCertificate `
-    -Name "whitelistcert" `
+    -Name "whitelistcert1" `
     -CertificateFile $gatewayCertCerPath
 
     THIS BIT DOES NOT WORK
@@ -198,7 +209,7 @@ $apimPoolSetting = New-AzApplicationGatewayBackendHttpSettings `
     -Port 443 `
     -Protocol "Https" `
     -CookieBasedAffinity "Disabled" `
-    -Probe $apimprobe `
+    -Probe $apimprobe 
     #-AuthenticationCertificates $authcert `
     -RequestTimeout 180
 
@@ -207,7 +218,7 @@ $apimPoolPortalSetting = New-AzApplicationGatewayBackendHttpSettings `
     -Port 443 `
     -Protocol "Https" `
     -CookieBasedAffinity "Disabled" `
-    -Probe $apimPortalProbe `
+    -Probe $apimPortalProbe 
     #-AuthenticationCertificates $authcert `
     -RequestTimeout 180
 
@@ -236,7 +247,7 @@ $rule01 = New-AzApplicationGatewayRequestRoutingRule `
 
 
     # Step 11 - change Application Gateway SKU and instances (# instances can be configured as required)
-$sku = New-AzApplicationGatewaySku -Name "Standard_v2" -Tier "WAF" -Capacity 1
+$sku = New-AzApplicationGatewaySku -Name "WAF_Medium" -Tier "WAF" -Capacity 1
 
 # Step 12 - configure WAF to be in prevention mode
 $config = New-AzApplicationGatewayWebApplicationFirewallConfiguration `
@@ -263,3 +274,60 @@ $appgw = New-AzApplicationGateway `
     -SslCertificates $cert, $certPortal `
     -AuthenticationCertificates $authcert `
     -Probes $apimprobe, $apimPortalProbe
+
+    # Configure redirection rules.
+
+    # Get existing Application Gateway config
+$appgw = Get-AzApplicationGateway `
+-ResourceGroupName $resGroupName `
+-Name $appgwName
+
+$listener = Get-AzApplicationGatewayHttpListener `
+-Name "apim-api-listener" `
+-ApplicationGateway $appgw
+
+$sinkpool = Get-AzApplicationGatewayBackendAddressPool `
+-ApplicationGateway $appgw `
+-Name "sinkpool"
+
+$pool = Get-AzApplicationGatewayBackendAddressPool `
+-ApplicationGateway $appgw `
+-Name "apimbackend"
+
+$poolSettings = Get-AzApplicationGatewayBackendHttpSettings `
+-ApplicationGateway $appgw `
+-Name "apim-api-poolsetting"
+
+$pathRule = New-AzApplicationGatewayPathRuleConfig `
+-Name "external" `
+-Paths "/external/*" `
+-BackendAddressPool $pool `
+-BackendHttpSettings $poolSettings
+
+$appgw = Add-AzApplicationGatewayUrlPathMapConfig `
+-ApplicationGateway $appgw `
+-Name "external-urlpathmapconfig" `
+-PathRules $pathRule `
+-DefaultBackendAddressPool $sinkpool `
+-DefaultBackendHttpSettings $poolSettings
+
+$appgw = Set-AzApplicationGateway `
+-ApplicationGateway $appgw
+
+$pathmap = Get-AzApplicationGatewayUrlPathMapConfig `
+-ApplicationGateway $appgw `
+-Name "external-urlpathmapconfig"
+
+$appgw = Add-AzApplicationGatewayRequestRoutingRule `
+-ApplicationGateway $appgw `
+-Name "apim-api-external-rule" `
+-RuleType PathBasedRouting `
+-HttpListener $listener `
+-BackendAddressPool $Pool `
+-BackendHttpSettings $poolSettings `
+-UrlPathMap $pathMap
+
+# Update Application Gateway with the new configuration
+
+$appgw = Set-AzApplicationGateway `
+    -ApplicationGateway $appgw

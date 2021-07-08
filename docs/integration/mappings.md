@@ -62,3 +62,7 @@ MS Doc: [Transformation examples video](https://azure.microsoft.com/en-gb/resour
 
 # JSON editing
 Use an editor such as https://jsoneditoronline.org/ to make sure your JSON is well formed.
+
+# Newtonsoft.Json.Linq
+
+https://www.newtonsoft.com/json/help/html/N_Newtonsoft_Json_Linq.htm
