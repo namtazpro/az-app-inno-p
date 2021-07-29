@@ -1,4 +1,4 @@
-<mxfile modified="2021-07-29T14:49:24.493Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="eTFzSuAgkJUo9zc8bYap" version="14.9.0" type="github" pages="2">
+<mxfile modified="2021-07-29T14:55:27.569Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="mrbjKrpOEIlmF3LLY_wi" version="14.9.0" type="github" pages="2">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Proposal 1">
     <mxGraphModel dx="2291" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LDreUfMnJmVGkj-JQfcM" name="Page-2">
-    <mxGraphModel dx="3257" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3898" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BhFgCoEos3Yp7x98W-Is-0" />
         <mxCell id="BhFgCoEos3Yp7x98W-Is-1" parent="BhFgCoEos3Yp7x98W-Is-0" />
@@ -663,6 +663,12 @@
         </mxCell>
         <mxCell id="HiyZ44yr6nlS5VKnAxf2-86" value="UK West" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=14;fontStyle=1" vertex="1" parent="BhFgCoEos3Yp7x98W-Is-1">
           <mxGeometry x="-390" y="759.9999999999999" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HiyZ44yr6nlS5VKnAxf2-87" value="DDoS Protection" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="BhFgCoEos3Yp7x98W-Is-1">
+          <mxGeometry x="-430" y="1248" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HiyZ44yr6nlS5VKnAxf2-88" value="DDoS Protection" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="BhFgCoEos3Yp7x98W-Is-1">
+          <mxGeometry x="-437.5" y="1778" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
