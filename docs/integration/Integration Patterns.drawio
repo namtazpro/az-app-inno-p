@@ -1,4 +1,4 @@
-<mxfile modified="2021-08-02T14:53:31.645Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="86l8CfK5HGfm9yAlJL0N" version="14.9.3" type="github">
+<mxfile modified="2021-08-02T14:59:05.589Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="Jz8ccU5PzPM8ULZ8Foyn" version="14.9.3" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1438" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,13 +297,19 @@
           <mxGeometry x="805" y="1373.3" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZaQ2WHesoQ1tdpj846Ri-131" value="&lt;b&gt;SECURITY&lt;/b&gt;&lt;br&gt;&lt;br&gt;TLS and HTTP/2&lt;br&gt;protocal settings&lt;br&gt;API Operations&lt;br&gt;API Policies&lt;br&gt;IP Filter&lt;br&gt;Limit Call Rate&lt;br&gt;Validate JWT" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="425.51" y="1500" width="110" height="130" as="geometry" />
+          <mxGeometry x="430.39" y="1530" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZaQ2WHesoQ1tdpj846Ri-132" value="&lt;b&gt;SECURITY&lt;/b&gt;&lt;br&gt;&lt;br&gt;SSL Policy&lt;br&gt;(Detection/Block)&lt;br&gt;HTTP Rewrite&lt;br&gt;Bot Protection&lt;br&gt;Geo Match&lt;br&gt;Request size limit&lt;br&gt;File Exclusion list&lt;br&gt;WAF OWASP&lt;br&gt;SQL Injection&lt;br&gt;Cross-site script&lt;br&gt;HTTP Request Smugling&lt;br&gt;HTTP Protocol Violation" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="535.51" y="1500" width="150" height="200" as="geometry" />
+          <mxGeometry x="531.27" y="1530" width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CeENG7b1wGtvTEhIrBuo-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#FF8000;dashed=1;" edge="1" parent="1" source="ZaQ2WHesoQ1tdpj846Ri-134" target="ZaQ2WHesoQ1tdpj846Ri-131">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZaQ2WHesoQ1tdpj846Ri-134" value="API Gateway" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;opacity=80;dashed=1;strokeColor=#007FFF;fillColor=#66B2FF;" parent="1" vertex="1">
           <mxGeometry x="450.51" y="1380" width="69.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CeENG7b1wGtvTEhIrBuo-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#FF8000;strokeWidth=3;dashed=1;" edge="1" parent="1" source="ZaQ2WHesoQ1tdpj846Ri-135" target="ZaQ2WHesoQ1tdpj846Ri-132">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZaQ2WHesoQ1tdpj846Ri-135" value="App Gateway&amp;nbsp; + WAF" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;opacity=80;dashed=1;strokeColor=#007FFF;fillColor=#66B2FF;" parent="1" vertex="1">
           <mxGeometry x="570.76" y="1380" width="69.75" height="80" as="geometry" />
