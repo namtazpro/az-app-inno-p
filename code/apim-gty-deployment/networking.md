@@ -183,3 +183,48 @@ $appgw = New-AzApplicationGateway -Name $appgwName -ResourceGroupName $resGroupN
   -RequestRoutingRules $gatewayRule `
   -Sku $sku -WebApplicationFirewallConfig $config -SslCertificates $certGateway `
   -TrustedRootCertificate $trustedRootCert -Probes $apimGatewayProbe
+
+
+
+  ------------------- Test on 14/07/2021 WORKS --------------------
+
+https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/application-gateway/self-signed-certificates.md
+
+
+  
+1 -  Create the certificate Key:
+openssl ecparam -out contoso1media.key -name prime256v1 -genkey
+
+You get a contoso1media.key file
+
+2 -  Create the Certificate Signing Request. This is what you need to create a certificate with the CA
+  openssl req -new -sha256 -key contoso1media.key -out contoso1media.csr
+
+You get a contoso1media.csr file
+
+3 - On the Digicert site, create a certificate with the CA. You need to prove that your own the domain via email
+
+4 - Download the .cer and .crt files 
+
+star_contoso1media_com_147473498TrustedRoot.cer
+
+star_contoso1media_com_147473498DigiCertCA.cer
+star_contoso1media_com_147473498DigiCertCA.crt
+
+star_contoso1media_com_147473498star_contoso1media_com.cer
+star_contoso1media_com_147473498star_contoso1media_com.crt
+
+
+5 - Generate a private key
+  openssl pkcs12 -export -out star_contoso1media.pfx -inkey contoso1media.key -in star_contoso1media_com_147473498star_contoso1media_com.crt
+
+Get the file star_contoso1media.pfx
+
+
+Do 1:
+
+- Upload the pfx in APIM and in 
+
+
+
+
