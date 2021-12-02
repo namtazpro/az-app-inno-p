@@ -1,9 +1,15 @@
-<mxfile modified="2021-12-02T18:28:34.376Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="17ofqhWgaaGJrbeGiLS4" version="15.8.8" type="github" pages="3">
+<mxfile modified="2021-12-02T18:31:56.598Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="8uOX0xtAnX0meGKx6LY0" version="15.8.8" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Proposal 1">
     <mxGraphModel dx="641" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cUTtfqQy33CiiHs7dwIR-54" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="613.24" y="376.6" width="39.21" height="30.8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUTtfqQy33CiiHs7dwIR-53" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610.79" y="599.2" width="39.21" height="30.8" as="geometry" />
+        </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-51" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="637.45" y="1197" width="40.55" height="30" as="geometry" />
         </mxCell>
@@ -515,9 +521,6 @@
         <mxCell id="cUTtfqQy33CiiHs7dwIR-47" value="Private Network" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="706.5" y="1180" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-48" value="APIM Policy &lt;br&gt;or &lt;br&gt;Custom load balancing" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="674.67" y="1242.1" width="110" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-49" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="486.34" y="1380" width="28.66" height="25.4" as="geometry" />
         </mxCell>
@@ -525,7 +528,10 @@
           <mxGeometry x="514.9999999999999" y="1385.4" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-52" value="Requires coordinated management&lt;br&gt;of both APIM instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="863" y="1252.1" width="160" height="30" as="geometry" />
+          <mxGeometry x="673.56" y="1255" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cUTtfqQy33CiiHs7dwIR-55" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="877.5" y="230.00000000000003" width="39.21" height="30.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
