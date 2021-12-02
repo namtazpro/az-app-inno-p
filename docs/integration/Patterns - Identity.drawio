@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T12:13:12.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="fzLGmNwTy06r0bywa1VH" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T13:00:20.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="acPyXBe9wm4VTq_qxNJ3" version="15.8.8" type="github">
   <diagram id="XBd5Z743LQHtHYiAEB7C" name="Page-1">
-    <mxGraphModel dx="2782" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2773" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="1200" y="1315" width="430" height="300" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-2" value="" style="whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="134.75" y="630" width="210.5" height="240" as="geometry" />
+          <mxGeometry x="134.75" y="630" width="210.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;dashed=1;" parent="1" source="hx2xRb0XmgXkcJFPSKEu-4" target="hx2xRb0XmgXkcJFPSKEu-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -102,7 +102,7 @@
           <mxGeometry x="1373" y="108.82" width="41.34" height="42" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-32" value="Role: &lt;font color=&quot;#0000ff&quot;&gt;Role.Parts.AllowRead&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="278.82" width="190" height="20" as="geometry" />
+          <mxGeometry x="930" y="950" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="hx2xRb0XmgXkcJFPSKEu-30" target="hx2xRb0XmgXkcJFPSKEu-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -114,13 +114,13 @@
           <mxGeometry x="850" y="60" width="200" height="300" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-37" value="&lt;a href=&quot;https://docs.microsoft.com/en-gb/azure/app-service/overview-authentication-authorization#identity-providers&quot;&gt;Authentication and authorization - Azure App Service | Microsoft Docs&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="650" width="460" height="30" as="geometry" />
+          <mxGeometry x="1369" y="940" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-38" value="&lt;a href=&quot;https://docs.microsoft.com/en-gb/azure/app-service/configure-authentication-provider-aad&quot;&gt;Configure Azure AD authentication - Azure App Service | Microsoft Docs&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="690" width="470" height="30" as="geometry" />
+          <mxGeometry x="1369" y="980" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-39" value="1- AuthN/AuthZ is taken care of by App Service" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1169" y="630" width="310" height="20" as="geometry" />
+          <mxGeometry x="1328" y="920" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-40" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 16px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;u&gt;Application ID URI:&lt;/u&gt; api://contoso1media/aircrafts-apis-publisher&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="488" y="190" width="340" height="30" as="geometry" />
@@ -243,8 +243,11 @@
         <mxCell id="hx2xRb0XmgXkcJFPSKEu-81" value="OAuth with SPA page" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="-410" y="2270" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2MkljM2qriIkET6BkoEW-1" value="&lt;h2 class=&quot;fxs-blade-title-titleText msportalfx-tooltip-overflow&quot; id=&quot;18f2a3c1-2918-4453-a9f4-6a23da8d4562&quot; style=&quot;margin: 0px 16px 0px 0px ; overflow: hidden ; text-overflow: ellipsis ; line-height: 28px ; color: rgb(50 , 49 , 48) ; outline: none ; font-size: 15px&quot;&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;apim-contoso1media&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;(Managed Identity)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2MkljM2qriIkET6BkoEW-1" value="&lt;h2 class=&quot;fxs-blade-title-titleText msportalfx-tooltip-overflow&quot; id=&quot;18f2a3c1-2918-4453-a9f4-6a23da8d4562&quot; style=&quot;margin: 0px 16px 0px 0px ; overflow: hidden ; text-overflow: ellipsis ; line-height: 28px ; color: rgb(50 , 49 , 48) ; outline: none ; font-size: 15px&quot;&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;apim-contoso1media&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font style=&quot;font-weight: normal&quot;&gt;(Managed Identity)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="865" y="137" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QYQWEsbcuL9O-b3DVbI7-1" value="" style="whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2.5" y="32" width="1687.5" height="778" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
