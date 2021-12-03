@@ -1,4 +1,4 @@
-<mxfile modified="2021-12-02T18:31:56.598Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="8uOX0xtAnX0meGKx6LY0" version="15.8.8" type="github" pages="3">
+<mxfile modified="2021-12-03T07:22:50.191Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="ttttYEu0bOlDiqo6ofnj" version="15.8.8" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Proposal 1">
     <mxGraphModel dx="641" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -459,8 +459,8 @@
         <mxCell id="cUTtfqQy33CiiHs7dwIR-27" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="471.34" y="1100" width="28.66" height="25.4" as="geometry" />
         </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-28" value="Management Plane instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="499.9999999999999" y="1105.4" width="130" height="20" as="geometry" />
+        <mxCell id="cUTtfqQy33CiiHs7dwIR-28" value="Primary Instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="524.9999999999999" y="1105.4" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-29" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="633.01" y="1298.3" width="41.66" height="32.4" as="geometry" />
@@ -524,8 +524,8 @@
         <mxCell id="cUTtfqQy33CiiHs7dwIR-49" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="486.34" y="1380" width="28.66" height="25.4" as="geometry" />
         </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-50" value="Management Plane instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="514.9999999999999" y="1385.4" width="130" height="20" as="geometry" />
+        <mxCell id="cUTtfqQy33CiiHs7dwIR-50" value="Primary Instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="539.9999999999999" y="1385.4" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-52" value="Requires coordinated management&lt;br&gt;of both APIM instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="673.56" y="1255" width="160" height="30" as="geometry" />
@@ -1012,7 +1012,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kjIY0aS-yUX5aKCbD5jp" name="Page-3">
-    <mxGraphModel dx="3600" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2776" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Dkp8jVAcvewguNXwIqs5-0" />
         <mxCell id="Dkp8jVAcvewguNXwIqs5-1" parent="Dkp8jVAcvewguNXwIqs5-0" />
