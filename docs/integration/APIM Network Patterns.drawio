@@ -1,4 +1,4 @@
-<mxfile modified="2021-12-03T11:13:06.054Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="qne3unKBijyFU0r13zjU" version="15.8.8" type="github" pages="3">
+<mxfile modified="2021-12-03T11:13:50.365Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="fPz46jrGSxiilLQ9AYKX" version="15.8.8" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Proposal 1">
     <mxGraphModel dx="2291" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -590,8 +590,8 @@
         <mxCell id="7QUDV7ZKoiVJLXXrgcx--6" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="523.84" y="250" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7QUDV7ZKoiVJLXXrgcx--8" value="Primary region&lt;br&gt;management component" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="927.5" y="327.49999999999994" width="120" height="30" as="geometry" />
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--8" value="&lt;span&gt;- Primary region&lt;/span&gt;&lt;br&gt;- Management component" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="940" y="327.49999999999994" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7QUDV7ZKoiVJLXXrgcx--9" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="496" y="472.4" width="260" height="20" as="geometry" />
