@@ -1,4 +1,4 @@
-<mxfile modified="2021-12-03T09:50:11.504Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="DPE-ySjxAo9yjBQ2DK2g" version="15.8.8" type="github" pages="3">
+<mxfile modified="2021-12-03T11:13:06.054Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="qne3unKBijyFU0r13zjU" version="15.8.8" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Proposal 1">
     <mxGraphModel dx="2291" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -426,12 +426,6 @@
         <mxCell id="py4y4W4ZoHb5isrVYQPt-103" value="APIM Policy" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="670" y="972.1" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-27" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1120" width="28.66" height="25.4" as="geometry" />
-        </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-28" value="Primary Instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="533.6599999999999" y="1125.4" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-29" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="633.01" y="1298.3" width="41.66" height="32.4" as="geometry" />
         </mxCell>
@@ -491,17 +485,11 @@
         <mxCell id="cUTtfqQy33CiiHs7dwIR-47" value="Private Network" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="706.5" y="1180" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-49" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="486.34" y="1380" width="28.66" height="25.4" as="geometry" />
-        </mxCell>
-        <mxCell id="cUTtfqQy33CiiHs7dwIR-50" value="Primary Instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="539.9999999999999" y="1385.4" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-52" value="Requires coordinated management&lt;br&gt;of both APIM instance" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="673.56" y="1255" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cUTtfqQy33CiiHs7dwIR-55" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="877.5" y="230.00000000000003" width="39.21" height="30.8" as="geometry" />
+          <mxGeometry x="888.29" y="326.70000000000005" width="39.21" height="30.8" as="geometry" />
         </mxCell>
         <mxCell id="EuqcD5s0LI4-RuOknPol-2" value="" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="91" y="28" width="219" height="150" as="geometry" />
@@ -589,6 +577,36 @@
         </mxCell>
         <mxCell id="EuqcD5s0LI4-RuOknPol-28" value="Client" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="710.5" y="187.99999999999997" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--2" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="644.44" y="-423" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--4" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="623.5600000000001" y="-210" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--5" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="613.24" y="-30" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--6" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="523.84" y="250" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--8" value="Primary region&lt;br&gt;management component" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="327.49999999999994" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--9" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="496" y="472.4" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--10" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="364.33000000000004" y="687.6" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--11" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;https://myapim.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290.00000000000006" y="902.4" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--12" value="&lt;span style=&quot;text-align: left ; font-size: 14px&quot;&gt;https://&lt;b&gt;myapim&lt;/b&gt;.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="366.34000000000003" y="1367.4" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QUDV7ZKoiVJLXXrgcx--13" value="&lt;span style=&quot;text-align: left ; font-size: 14px&quot;&gt;https://&lt;b&gt;myapim2&lt;/b&gt;.developer.azure-api.net&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="336.00000000000006" y="1177" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
